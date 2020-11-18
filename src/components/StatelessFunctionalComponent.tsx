@@ -19,7 +19,7 @@ const StatelessFunctionalComponent: FC<Props> = ({trigger}) => {
     console.log(`SFC: ${endTime - startTime} milliseconds`)
 
     return (
-        <div>StatelessFunctionalComponent: {trigger}</div>
+        <div>Stateless Functional Component: {trigger}</div>
     );
 };
 
